@@ -46,6 +46,12 @@ Create a file name `config.yml` and paste the below content:
 > **Action** :  At a minimum you'll need to fill out the master_key, and also enter credential information for at least one provider. You can browse supported providers [here](https://mozilla-ai.github.io/any-llm/providers/). If you would like to track usage cost, you'll also need to configure model pricing, as explained in the [config template file](https://raw.githubusercontent.com/mozilla-ai/any-llm/main/docker/config.example.yml).
 
 ```yaml
+database_url: "postgresql://gateway:gateway@postgres:5432/gateway"
+
+host: "0.0.0.0"
+port: 8000
+
+
 master_key: 09kS0xTiz6JqO....
 
 providers:
