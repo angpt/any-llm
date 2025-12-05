@@ -53,7 +53,7 @@ providers:
     api_key: YOUR_OPENAI_API_KEY_HERE
     api_base: "https://api.openai.com/v1"  # optional, useful when you want to use a specific version of the API
 
-models:
+pricing:
   openai:gpt-4:
     input_price_per_million: 0.15
     output_price_per_million: 0.60
