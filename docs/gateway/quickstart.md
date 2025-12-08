@@ -51,7 +51,6 @@ database_url: "postgresql://gateway:gateway@postgres:5432/gateway"
 host: "0.0.0.0"
 port: 8000
 
-
 master_key: 09kS0xTiz6JqO....
 
 providers:
